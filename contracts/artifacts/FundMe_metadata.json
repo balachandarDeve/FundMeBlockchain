@@ -27,6 +27,63 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "deleteAtIndex",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getPeople",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							}
+						],
+						"internalType": "struct FundMe.People",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -76,11 +133,11 @@
 	},
 	"sources": {
 		"contracts/FundMe.sol": {
-			"keccak256": "0xbf2628fe92e99e38385a4ef818c28c1a173d484da552c8a897497eed6dad730e",
+			"keccak256": "0xea972474031ac7307d2eddab23577f90ea9046c646510bb4ac186eb7dbb9ad7e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://de7fb071105b99032fba263c4b9147bcf5e9d392f7e07088eb3e7699824bba59",
-				"dweb:/ipfs/QmStdqsgh7N8fkuc8MBj2mfhq4uqedR8YE7SbkkY7ma74a"
+				"bzz-raw://7f7a5cc8c4003a9197c17b96f38feec8544202e23cc42b8a25c9c6e7ab88cef0",
+				"dweb:/ipfs/QmR9fTAYyR5VS7ZQ41bWEGrofhvX5A7cUkEE2TmuzeUiBL"
 			]
 		}
 	},
